@@ -16,11 +16,7 @@ rm -rf ~/QuickBox
 
 ### If you are already located on the GitHub repo as of v2.4.9, run the following to easily update to the new v2.5.+ QuickBox/QB repo:
 ```
-rm -rf /etc/QuickBox; \
-git clone https://github.com/QuickBox/QB /etc/QuickBox; \
-wget -O /usr/local/bin/quickbox/system/updateQuickBox https://raw.githubusercontent.com/QuickBox/QB/master/packages/system/updateQuickBox; \
-dos2unix $(find /usr/local/bin/quickbox -type f) && chmod +x $(find /usr/local/bin/quickbox -type f); \
-updateQuickBox
+
 ```
 
 ### If you have received the following error:
